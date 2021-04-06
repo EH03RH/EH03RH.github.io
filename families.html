@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Future of Aviation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Webbstyle.css">
+  <link rel="stylesheet" href="design_extern.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <img src="allt.jpg" alt="Airbus aircraft series" width="100%" height="450">
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="https://www.icao.int/Meetings/FutureOfAviation/Pages/default.aspx">Future of Aviation</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home</a></li>
+        <li class="active"><a href="families.html">Families</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Airbus</h2>
+      <h5>"We make it fly"</h5>
+      <div class="fakeimg">
+	  <img src="airbus_logo.jpg" alt="Airbus Logo" width="360" height="200">
+	  </div>
+      <p>The company's main civil aeroplane business is conducted through the French company Airbus S.A.S., based in Blagnac, a suburb of Toulouse, with production and manufacturing facilities mostly in Europe</p>
+      <h3>More about the company</h3>
+      <p>Recommended pages</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="50_years.html">50 year anniversary</a></li>
+        <li><a href="Environment.html">Environment</a></li>
+        <li><a href="future.html">Future</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>Airbus aircraft models and families</h2>
+      <h5>Commercial, defence and helicopter</h5>
+      <div>
+<div id="myBtnContainer">
+  <button class="btnd actived" onclick="filterSelection('all')"> Show all</button>
+  <button class="btnd" onclick="filterSelection('Commercial')"> Commercial</button>
+  <button class="btnd" onclick="filterSelection('Defence')"> Defence</button>
+  <button class="btnd" onclick="filterSelection('Helicopters')"> Helicopters</button>
+  <button class="btnd" onclick="filterSelection('Future')"> Future</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="rowd">
+  <div class="columnd Commercial">
+    <div class="contentd">
+      <a href="#"><img src="bild3.jpg" alt="Mountains" class="logo" style="width:100%"></a>
+      <h4>A220 Family</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Commercial">
+    <div class="contentd">
+      <a href="#"><img src="bild2.jpg" alt="Lights" class="logo" style="width:100%"></a>
+      <h4>A320 Family</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Commercial">
+    <div class="contentd">
+      <a href="#"><img src="bild4.jpg" alt="Nature" class="logo" style="width:100%"></a>
+      <h4>A330 FAmily</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  <div class="rowd">
+  <div class="columnd Commercial">
+    <div class="contentd">
+      <img src="a340.jpg" alt="Car" class="logo" style="width:100%">
+      <h4>A340 Family</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Commercial">
+    <div class="contentd">
+      <a><img src="bild1.jpg" alt="Car" class="logo" style="width:100%"></a>
+      <h4>A350 Family</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Commercial">
+    <div class="contentd">
+      <img src="bild5.jpg" alt="Car" class="logo" style="width:100%">
+      <h4>A380 Family</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  <div class="rowd">
+  <div class="columnd Commercial">
+    <div class="contentd">
+      <img src="beluga.jpg" alt="People" class="logo" style="width:100%">
+      <h4>Beluga Family</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Defence">
+    <div class="contentd">
+      <img src="a400m.jpg" alt="People" class="logo" style="width:100%">
+      <h4>A400M</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Defence">
+    <div class="contentd">
+      <img src="a330mrtt.jpg" alt="People" class="logo" style="width:100%">
+      <h4>A330 MRRT</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  <div class="rowd">
+  <div class="columnd Defence">
+    <div class="contentd">
+      <img src="c295.jpg" alt="People" class="logo" style="width:100%">
+      <h4>C295</h4>
+      <p>No Link</p>
+    </div>
+	</div>
+	<div class="columnd Defence">
+    <div class="contentd">
+      <a><img src="eurofighter.jpg" alt="People" class="logo" style="width:100%"></a>
+      <h4>Eurofighter Typhoon</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Helicopters">
+    <div class="contentd">
+      <a href="#"><img src="h160.jpg" alt="People" class="logo" style="width:100%"></a>
+      <h4>H160</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  <div class="rowd">
+  <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="h135.jpg" alt="People" class="logo" style="width:100%">
+      <h4>H135</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="h125.jpg" alt="People" class="logo" style="width:100%">
+      <h4>H125</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="h145.jpg" alt="People" class="logo" style="width:100%">
+      <h4>H145</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  <div class="rowd">
+  <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="AS365 N3+.jpg" alt="People" class="logo" style="width:100%">
+      <h4>AS365 N3+</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="h155.jpg" alt="People" class="logo" style="width:100%">
+      <h4>H155</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+   <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="h175.jpg" alt="People" class="logo" style="width:100%">
+      <h4>H175</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  <div class="rowd">
+    <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="h215.jpg" alt="People" class="logo" style="width:100%">
+      <h4>H215</h4>
+      <p>No Link</p>
+    </div>
+	</div>
+	  <div class="columnd Helicopters">
+    <div class="contentd">
+      <img src="h225.jpg" alt="People" class="logo" style="width:100%">
+      <h4>H225</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  <div class="rowd">
+  <div class="columnd Future">
+    <div class="contentd">
+      <img src="turbofan.jpg" alt="People" class="logo" style="width:100%">
+      <h4>Turbofan</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Future">
+    <div class="contentd">
+      <img src="turboprop.jpg" alt="People" class="logo" style="width:100%">
+      <h4>Turboprop</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  <div class="columnd Future">
+    <div class="contentd">
+      <img src="blendedwingbody.jpg" alt="People" class="logo" style="width:100%">
+      <h4>Blended-Wing Body (BWB)</h4>
+      <p>No Link</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <script>
+  filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("columnd");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btnd");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("actived");
+    current[0].className = current[0].className.replace(" actived", "");
+    this.className += " actived";
+  });
+}
+  </script>
+<!-- END GRID -->
+</div>
+	  
+	  </div>
+	 </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Webbsite made for webb development 1</p>
+  <footer>
+		&copy; 2021 Eh Hta Ready Htoo
+	</footer>
+</div>
+</body>
+</html>
