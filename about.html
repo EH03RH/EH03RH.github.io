@@ -46,7 +46,7 @@
 	  <img src="logo.PNG" alt="Airbus Logo" width="100%" height="270">
 	  </div>
 	  <br>
-	  <button width="100%" type="button" class="collapsible">About a plane spotter</button>
+	  <button type="button" width="100%" class="collapsible">About a plane spotter</button>
 	  <div class="content">
 	  <p>A plane spotter or aviation enthusiast is a person who collects information about and images of airplanes as a hobby. Important elements in plane spotting can be to "collect" as many different planes as possible, to find planes that are special in some respect or just to take nice pictures.
 	  </div>
@@ -89,160 +89,65 @@ for (i = 0; i < coll.length; i++) {
       <h2>Photos taken by me</h2>
       <h5>Last updated, Nov 26, 2019</h5>
      <div>
-	 <!-- Container for the image gallery -->
-<!-- Container for the image gallery -->
-<div class="container">
-
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 13</div>
-      <img src="lufthansa.png" width="100%" height="350">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 13</div>
-      <img src="lufthansa_fra.PNG" width="100%" height="350">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 13</div>
-      <img src="lufthansa_tegel.PNG" width="100%" height="350">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">4 / 13</div>
-      <img src="nor_lul.PNG" width="100%" height="350">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 13</div>
-      <img src="qan.PNG" width="100%" height="350">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 13</div>
-      <img src="qatar.PNG" width="100%" height="350">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">7 / 13</div>
-      <img src="sas.PNG" width="100%" height="350">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">8 / 13</div>
-      <img src="sas_arn.PNG" width="100%" height="350">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">9 / 13</div>
-      <img src="sas_arn_takoff.PNG" width="100%" height="350">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">10 / 13</div>
-      <img src="sas_ewr.PNG" width="100%" height="350">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">11 / 13</div>
-      <img src="sas_lul_gate.PNG" width="100%" height="350">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">12 / 13</div>
-      <img src="thai.PNG" width="100%" height="350">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">13 / 13</div>
-      <img src="united.PNG" width="100%" height="350">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <!-- Thumbnail images -->
-  <div class="rowe">
-    <div class="columne">
-      <img class="demo cursor" src="lufthansa.png" width="100%" height="50" onclick="currentSlide(1)" alt="Lufthansa A320 taxiing at Frankfurt Airport">
-    </div>
-    <div class="columne">
-      <img class="demo cursor" src="lufthansa_fra.PNG" width="100%" height="50" onclick="currentSlide(2)" alt="Lufthansa A330 Landing at Frankfurt Airport">
-    </div>
-    <div class="columne">
-      <img class="demo cursor" src="lufthansa_tegel.PNG" width="100%" height="50" onclick="currentSlide(3)" alt="Lufthansa B747 Landing at Berlin Tegel Airport">
-    </div>
-    <div class="columne">
-      <img class="demo cursor" src="nor_lul.PNG" width="100%" height="50" onclick="currentSlide(4)" alt="Norwegian Air Shuttle B737 at Gate 3, at Luleå Airport">
-    </div>
-    <div class="columne">
-      <img class="demo cursor" src="qan.PNG" width="100%" height="50" onclick="currentSlide(5)" alt="Quantas B747">
-    </div>
-    <div class="columne">
-      <img class="demo cursor" src="qatar.PNG" width="100%" height="50" onclick="currentSlide(6)" alt="Qatar B777 Landing at Brussel Zaventem Airport">
-    </div>
-	<div class="columne">
-      <img class="demo cursor" src="sas.PNG" width="100%" height="50" onclick="currentSlide(7)" alt="SAS A330-300 flying over the United States">
-    </div>
-	<div class="columne">
-      <img class="demo cursor" src="sas_arn.PNG" width="100%" height="50" onclick="currentSlide(8)" alt="SAS A320 at gate 46, at Stockholm Arlanda Airport">
-    </div>
-	<div class="columne">
-      <img class="demo cursor" src="sas_arn_takoff.PNG" width="100%" height="50" onclick="currentSlide(9)" alt="SAS A320 takes off from runwway 01L">
-    </div>
-	<div class="columne">
-      <img class="demo cursor" src="sas_ewr.PNG" width="100%" height="50" onclick="currentSlide(10)" alt="SAS A330-300 at gate B62, at Newark Liberty International Airport">
-    </div>
-	<div class="columne">
-      <img class="demo cursor" src="sas_lul_gate.PNG" width="100%" height="50" onclick="currentSlide(11)" alt="SAS A320 at gate 5, at Luleå Airport">
-    </div>
-	<div class="columne">
-      <img class="demo cursor" src="thai.PNG" width="100%" height="50" onclick="currentSlide(12)" alt="Thai Airways A350 Landing at Brussel Zaventem Airport">
-    </div>
-	<div class="columne">
-      <img class="demo cursor" src="united.PNG" width="100%" height="50" onclick="currentSlide(13)" alt="United Airlines B777">
-    </div>
-  </div>
-</div>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
+    <div class="slider">
+	<div class="rowe">
+      <a href="#slide-1"><img src="lufthansa.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+      <a href="#slide-2"><img src="lufthansa_fra.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+      <a href="#slide-3"><img src="lufthansa_tegel.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+      <a href="#slide-4"><img src="nor_lul.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+      <a href="#slide-5"><img src="qan.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-6"><img src="qatar.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-7"><img src="sas.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-8"><img src="sas_arn.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-9"><img src="sas_arn_takoff.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-10"><img src="sas_ewr.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-11"><img src="sas_lul_gate.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-12"><img src="thai.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  <a href="#slide-13"><img src="united.PNG" width="7.2%" height="50" alt="Lufthansa A320 taxiing at Frankfurt Airport"></a>
+	  </div>
+      <div class="slides">
+        <div id="slide-1">
+		 <img src="lufthansa.PNG" width="100%" height="350" alt="SAS">
+		</div>
+        <div id="slide-2">
+		<img src="lufthansa_fra.PNG" width="100%" height="350" alt="SAS">
+		</div>
+        <div id="slide-3">
+		<img src="lufthansa_tegel.PNG" width="100%" height="350" alt="SAS">
+		</div>
+        <div id="slide-4">
+		<img src="nor_lul.PNG" width="100%" height="350" alt="SAS">
+		</div>
+        <div id="slide-5">
+		<img src="qan.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-6">
+		<img src="qatar.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-7">
+		<img src="sas.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-8">
+		<img src="sas_arn.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-9">
+		<img src="sas_arn_takoff.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-10">
+		<img src="sas_ewr.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-11">
+		<img src="sas_lul_gate.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-12">
+		<img src="thai.PNG" width="100%" height="350" alt="SAS">
+		</div>
+		<div id="slide-13">
+		<img src="united.PNG" width="100%" height="350" alt="SAS">
+		</div>
+      </div>
+	  </div>
+	  
 	 </div>
     </div>
   </div>
