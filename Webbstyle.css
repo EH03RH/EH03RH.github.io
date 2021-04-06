@@ -30,11 +30,13 @@
 
 .row {
   display: flex;
+	width: 100%;
 }
 
 .column {
   flex: 33.33%;
   padding: 5px;
+	width: 100%;
 }
 
 /* Style the button that is used to open and close the collapsible content */
