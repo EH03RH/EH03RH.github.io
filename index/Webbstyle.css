@@ -341,3 +341,29 @@ h1 {
 }
 
 /* code that is here will apply to any screen size */
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+
+div {
+  /* linearly increase the font-size from 16->32px 
+     between a viewport width of 600px-> 1200px  */
+  @include fluid-type(font-size, 600px, 1200px, 16px, 32px);
+}
+@media screen and (max-width: 600px) {
+  div {
+     font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  div {
+     font-size: 36px;
+  }
+}
