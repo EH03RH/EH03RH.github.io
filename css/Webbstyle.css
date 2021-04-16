@@ -342,3 +342,7 @@ h1 {
 
 /* code that is here will apply to any screen size */
 
+.fit {
+  max-width: 99%;
+  max-height: 99%;
+}
