@@ -342,7 +342,7 @@ h1 {
 
 /* code that is here will apply to any screen size */
 
-  html, body, div {
+  html, body {
     height: 100%;
     margin: 0;
     padding: 0;
