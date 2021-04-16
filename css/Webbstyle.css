@@ -302,13 +302,13 @@ h1 {
         }
       }
 
-  html, body, div, p, h1, h2, h3, h4, h5, nav {
+  html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-img, div, p, h1, h2, h3, h4, h5, nav {
+fit {
     padding: 0;
     display: block;
     margin: 0 auto;
