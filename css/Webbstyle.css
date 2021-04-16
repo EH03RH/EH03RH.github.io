@@ -356,3 +356,8 @@ div {
   /* linearly increase the font-size from 16->32px 
      between a viewport width of 600px-> 1200px  */
   @include fluid-type(font-size, 600px, 1200px, 16px, 32px);
+	
+img, div, p, h1, h2, h5 {
+	max-width: 100%;
+	max-height: 100%;
+	}
