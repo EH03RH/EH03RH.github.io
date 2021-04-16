@@ -7,7 +7,6 @@
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  height: auto;
   text-align: left;
   border: none;
   outline: none;
@@ -32,14 +31,12 @@
 .row {
   display: flex;
   width: 100%;
-  height: auto;
 }
 
 .column {
   flex: 33.33%;
   padding: 5px;
   width: 100%;
-  height: auto;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -49,7 +46,6 @@
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  height: auto;
   border: none;
   text-align: left;
   outline: none;
@@ -74,7 +70,6 @@
 .container {
   position: relative;
   width: 100%;
-  height: auto;
 }
 
 /* Hide the images by default */
@@ -93,7 +88,6 @@
   position: absolute;
   top: 40%;
   width: auto;
-  height: auto;
   padding: 16px;
   margin-top: -50px;
   color: gray;
@@ -109,7 +103,6 @@
   position: absolute;
   top: 40%;
   width: auto;
-  height: auto;
   padding: 16px;
   margin-top: -50px;
   color: gray;
@@ -159,7 +152,6 @@
 .columne {
   float: left;
   width: 7.69%;
-  height: auto;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -211,7 +203,6 @@ h1 {
 .columnd {
   float: left;
   width: 33.33%;
-  height: auto;
   display: none; /* Hide columns by default */
 }
 
@@ -258,14 +249,14 @@ h1 {
       }
       .slider {
         width: 100%;
-	height: auto;
+		height: 450;
         text-align: center;
         overflow: hidden;
       }
       .slides {
         display: flex;
-	width: 100%;
-        height: auto;
+		width: 100%;
+        height: 450;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -286,7 +277,7 @@ h1 {
         scroll-snap-align: start;
         flex-shrink: 0;
         width: 100%;
-        height: auto;
+        height: 450;
         margin-right: 50px;
         border-radius: 10px;
         background: #eee;
@@ -365,32 +356,3 @@ div {
   /* linearly increase the font-size from 16->32px 
      between a viewport width of 600px-> 1200px  */
   @include fluid-type(font-size, 600px, 1200px, 16px, 32px);
-	
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
-}
-	
-iframme {
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
-    height: 100%;
-}
-	
-p, h1, h2, h5 {
-	font-size: auto;
-	
-	}
