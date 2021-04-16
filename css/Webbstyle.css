@@ -342,6 +342,10 @@ h1 {
 
 /* code that is here will apply to any screen size */
 
+fit {
+  max-width: 99%;
+  max-height: 99%;
+
   html, body {
     height: 100%;
     margin: 0;
