@@ -342,13 +342,13 @@ h1 {
 
 /* code that is here will apply to any screen size */
 
-  html, body {
+  html, body, div {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-img {
+img, div {
     padding: 0;
     display: block;
     margin: 0 auto;
